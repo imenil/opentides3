@@ -1,0 +1,12 @@
+apply plugin: 'java'
+
+project.description = 'Common Libraries of Opentides 3'
+
+repositories {
+	mavenCentral()
+	mavenLocal()
+}
+
+dependencies {
+	testCompile 'junit:junit:4.11'
+}
