@@ -1,15 +1,5 @@
-apply plugin: 'java'
-apply plugin: 'maven'
-
 project.description = 'Common Libraries of Opentides 3'
-project.group = 'org.opentides'
-project.version = '3.1.0'
 project.archivesBaseName = 'common'
-
-repositories {
-	mavenCentral()
-	mavenLocal()
-}
 
 dependencies {
 	testCompile 'junit:junit:4.11'
